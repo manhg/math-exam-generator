@@ -1,0 +1,73 @@
+#wrapper { display: block; /* background-color: #fff; opacity: 0.9; */ }
+body { background-repeat: none; background-attachment:fixed; background-image: url(http://noitru.net/uploads/bavi.jpg); background-position: right bottom; padding-top: 0px; background-repeat:no-repeat; }
+#header { height: 26px; line-height: 26px; background-color: #f57900; color: #fff; font-weight: bold; padding: 3px; }
+#body { padding: 10px; }
+.bold { font-weight: bold; }
+h1 { font-size: 18px; font-weight: bold; }
+blockquote { font: #0f0; font-style:italic; }
+* { font: 13px Arial; }
+textarea { font: 10pt "Courier New"; width: 650px; }
+a { text-decoration: none; color: blue; font-weight: bold; }
+a:hover { text-decoration: underline; }
+.red { color: red; }
+strong { font-weight: bold; }
+.no , .no a { color: #777; font: 11px Verdana; }
+.tip, .red, #announcement { font: 11px Verdana; font-style:italic;  }
+#nav, .line { 
+	border-bottom: solid 3px rgb(242,251,253); 
+	padding: 5px; margin: -10px; margin-bottom: 10px; 
+}
+#last-photo { float:right; }
+#recent { background-position: center center; background-repeat: no-repeat; }
+#last-photo, #recent {  width: 120px; height: 120px;  }
+#link-last-photo { color: #fff; }
+#wrapper { min-height: 400px; }
+td { vertical-align: top;  padding-bottom: 15px; }
+#meta div { padding: 5px; border-right: solid 1px #ccc; width: 150px; display: inline-block; }
+select { width: 100px; }
+#textCategory { width: 400px; margin-left: 50px; }
+#pad { font: 13pt "Times New Roman"; padding: 5px; background-color: #f7f7f7; width: 650px; }
+#meta * { font: 13px Arial; }
+
+#nav a, .button { 
+	text-decoration: none;
+	padding: 5px 20px 5px 20px; 
+	background-color: #0078CE; 
+	color: white; 
+	border: solid 1px #0069B5;
+	line-height: 26px;
+}
+#nav a:hover, .button:hover {
+	background-color: #0090F7;
+}
+/****************************************************************************/
+/* GENERATE */
+#source, #destination { 
+	padding: 5px; height: 550px; display: inline-block; 
+	float: left; background-color: #f0f0f0; margin: 2px; 
+}
+#source { width: 48%; }
+#destination { width: 48%; }
+#topic { width: 200px; }
+#grade { width: 40px; }
+#srclist, #destlist { overflow: auto; height: 482px; background-color: #fff; }
+#source div { padding: 2px; }
+.question, #destlist div { 
+	font: 13pt "Times New Roman"; 
+	border-bottom: solid 1px #a0a0a0; 			
+}	
+.question:hover { background-color: #f7f7f7; cursor: pointer; }
+.sel { cursor: move; margin-bottom: 6px; }
+/****************************************************************************/
+/* VIEW */
+.q { font: 13pt "Times New Roman"; padding: 5px; border-bottom: solid 1px #777; }
+m { font: 10pt "Courier New"; }
+.meta { font-style: italic; }
+.no { display: inline-block; background-color: #777; color: #fff; padding: 2px; margin: 2px; width: 20px; height: 20px; border-radius: 15px; text-align: center; line-height: 20px; }
+body { padding: 0; margin: 0; width: 100%; }
+#header a { color: #e7e7e7; }
+#body { min-height: 500px; }
+
+img.latex { vertical-align: middle; }
+
+#bar { padding: 4px; }
